@@ -1,0 +1,509 @@
+/*
+Author: Andres Bautista || Business Page
+ */
+
+
+/*=================================  Custom Styles  ================================*/
+
+
+/* Menu Business */
+
+.section-navbar-master--business {
+    background-color: #131313;
+    font-size: 1.25em;
+    padding: 0 !important;
+
+}
+
+.navbar-master--business {
+    box-shadow: none !important;
+    padding: 14px 0 0 0 !important;
+}
+
+
+/* Hero Business */
+
+.section-hero-business {
+    margin: 2em 0;
+}
+
+.block-title-hero-business {
+    font-size: 2.5em;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+}
+
+.block-title-hero-business--strong {
+    font-family: 'OmnesATTMedium';
+}
+
+.block-subtitle-hero-business {
+    height: 170px;
+    position: relative;
+    font-size: 2em;
+    font-family: 'OmnesATTMedium';
+    line-height: 1em;
+    color: #0574ac;
+    padding: 70px 0;
+    text-align: right;
+}
+
+.block-list-plus {
+    display: inline-block;
+    margin: 0 0 0 -35px;
+    vertical-align: middle;
+    font-family: OmnesATTRegular;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.block-list-plus li {
+    list-style: none;
+    display: block;
+    position: relative;
+    line-height: 2em;
+}
+
+.block-list-plus .long-item {
+    line-height: 1em;
+}
+
+.block-list-plus li:before {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    color: #009ad6;
+}
+
+.img-visa-business {
+    margin: -1em 0 0 -2em;
+    display: inline-block;
+}
+
+.visa-disclaimer-business {
+    margin: 0 0 27px -144px;
+    padding: 0 0 0 0;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1rem;
+    width: 130px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.block-content-visabonus {
+    display: inline-block;
+    width: auto;
+    color: #067ab4;
+    font-style: italic;
+    font-size: 1.25em;
+    line-height: 1em;
+    font-family: 'OmnesATTRegular';
+    vertical-align: middle;
+    padding: 0 0 1em 0.5em;
+    margin: 0 0 0 0;
+}
+
+.block-price-visabonus {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1em;
+    font-family: 'OmnesATTMedium';
+}
+
+.block-smalltext-visabonus {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #333;
+}
+
+
+/* Form Business */
+
+.form-business {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    padding: 1em;
+}
+
+.block-title-form-business {
+    font-size: 2.5em;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+    text-align: center;
+    padding: 0.375em;
+}
+
+.block-button-form-business,
+.block-button-form-business:hover {
+    font-size: 1.75em;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ec812f;
+    padding: .4em;
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.form-business-styles .medium {
+    width: 100% !important;
+    border: 1px solid #dfdfdf !important;
+    color: #000;
+    border-radius: 5px !important;
+    font-size: 1.2em !important;
+    font-family: 'OmnesATTLight' !important;
+    line-height: 1em !important;
+    padding: 0.75em !important;
+}
+
+.form-business-styles .large {
+    width: 100% !important;
+    border: 1px solid #dfdfdf !important;
+    color: #000;
+    border-radius: 5px !important;
+    font-size: 1.2em !important;
+    font-family: 'OmnesATTLight' !important;
+    line-height: 1em !important;
+    padding: 0.75em !important;
+}
+
+.form-business-styles .input-business {
+    width: 50%;
+    display: inline-block;
+    margin-top: 0.25em !important;
+}
+
+.form-business-styles .checkbox-business #label_2_10_1 {
+    font-size: 0.875em !important;
+    font-family: 'OmnesATTLight' !important;
+    line-height: 1.25em !important;
+    padding: 0 0 0 1em;
+    color: #ccc;
+}
+
+.form-business-styles .gfield_label {
+    display: none !important;
+}
+
+.gform_footer {
+    text-align: center;
+}
+
+.gform_wrapper {
+    margin: 0 !important;
+}
+
+.gform_button {
+    font-size: 1.75em !important;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ec812f;
+    padding: .4em;
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    width: 100% !important;
+    border: 0;
+}
+
+.gform_wrapper .field_description_below .gfield_description {
+    display: none;
+}
+
+li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: 0 !important;
+}
+
+.input-business-long.gfield_error {
+    padding-right: 16px !important;
+    width: 100% !important;
+}
+
+.input-business.gfield_error {
+    padding-right: 16px !important;
+    width: 50% !important;
+}
+
+.gform_wrapper div.validation_error {
+    font-family: 'OmnesATTLight';
+    color: #428bca !important;
+    border-top: 2px solid !important;
+    border-bottom: 2px solid !important;
+}
+
+li.gfield.gfield_error {
+    background-color: #edf6fa!important;
+    border-top: 1px solid #428bca !important;
+    border-bottom: 1px solid #428bca !important;
+    box-sizing: border-box;
+}
+
+div#gform_confirmation_message_2 {
+    font-size: 1.5em !important;
+    font-family: 'OmnesATTLight';
+    line-height: 1em !important;
+    text-align: center !important;
+    padding: 0.375em !important;
+}
+
+
+/* CTA Banner Business */
+
+.section-ctabanner-business {
+    font-size: 3em;
+    font-family: 'OmnesATTMedium';
+    text-align: center;
+    padding: 0.5em;
+    background-color: #067ab4;
+    line-height: 1em;
+}
+
+.section-ctabanner-business a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Section MainContent Business */
+
+
+
+
+.block-title-maincontent-business {
+    font-size: 2.5em;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+    padding: 1em 0;
+}
+
+.block-subtitle-maincontent-business {
+    font-size: 1.25em;
+    font-family: 'OmnesATTMedium';
+    line-height: 1em;
+    color: #0574ac;
+    padding: 0 0 1em;
+}
+
+.block-items-maincontent-business {
+    font-size: 1em;
+    font-family: 'OmnesATTMedium';
+    line-height: 1.75em;
+}
+
+.block-items-maincontent-business li {
+    list-style: none;
+    margin: 0 0 0 -40px;
+}
+
+.block-subitems-maincontent-business {
+    font-family: 'OmnesATTRegular';
+    padding: 0.25em 0 1.5em;
+    line-height: 1em;
+    max-width: 19em;
+}
+
+.ico-master-business {
+    width: 2em;
+    display: inline-block;
+    top: 0;
+    height: auto;
+    margin: 0;
+    vertical-align: top;
+}
+
+.block-group-maincontent {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.375em 0 0 0.75em;
+    width: 17em;
+}
+
+.img-maincontent-business {
+    padding: 2em 0 0;
+}
+
+
+/* Section SubCTA Business */
+
+.section-subcta-business {
+    background-color: #f9f7f7;
+}
+
+.block-content-subcta {
+    color: #067ab4;
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 1em;
+    font-family: 'OmnesATTRegular';
+    border: 1px solid #dfdfdf;
+    border-radius: 2em;
+    padding: 0.5em 1.5em 0.5em 7.5em;
+    text-align: center;
+    margin: 3em auto;
+}
+
+.block-price-subcta {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1em;
+    font-family: 'OmnesATTMedium';
+}
+
+.img-visa-business-subcta {
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    padding: 1em;
+    width: 9em;
+    height: 9em;
+    display: inline-block;
+    position: absolute;
+    margin: 2.5em auto auto 2em;
+    background-color: #f9f7f7;
+    z-index: 10;
+}
+
+
+/*  Footer Business */
+
+.block-title-form-business {
+    font-size: 1.5em;
+}
+
+.section-footer-business {
+    background: grey;
+    padding: 35px 5px;
+    color: #fff;
+    font-size: 0.75em;
+    font-family: 'OmnesATTLight';
+    line-height: 1.25em;
+    text-align: center;
+}
+
+
+/*================================  Only Mobiles  ================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+   /* Hero Business */
+.section-hero-business {
+    margin: 1em 0;
+}
+    .block-title-hero-business {
+        font-size: 1.75em;
+    }
+    .block-subtitle-hero-business {
+        height: auto;
+        padding: 1em 0 0 0;
+        text-align: center;
+    }
+    .section-ctabanner-business {
+        font-size: 2.25em;
+    }
+
+/* Section MainContent Business */
+.block-title-maincontent-business {
+    font-size: 1.75em;
+        text-align: center;
+
+}
+.block-subtitle-maincontent-business {
+
+    padding: 0 0 0.5em;
+}
+.block-group-maincontent {
+    margin: -2px 0 0 0;
+    width: 87%;
+}
+
+    /* Section SubCTA Business */
+    .img-visa-business-subcta {
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        display: block;
+        position: relative;
+        margin: 0;
+    }
+    .img-visa-business-subcta {
+        text-align: center;
+
+        margin: -1em auto -1.5em auto;
+    background-color: transparent;
+    }
+    .block-content-subcta {
+        font-size: 1.25em;
+        margin: 0 0 1em 0;
+        border: 1px solid #dfdfdf;
+        border-radius: 1em;
+        padding: .5em;
+        text-align: center;
+    }
+    /* Form */
+    .gform_button {
+        font-size: 1.25em !important;
+    }
+
+
+.form-business-styles .medium {
+    font-size: 0.875em !important;
+    margin: 0 0 0 2% !important;
+    width: 96% !important;
+}
+
+.form-business-styles .large {
+    font-size: 0.875em !important;
+        margin: 0 0 0 1% !important;
+    width: 98% !important;
+}
+
+
+}
+
+/*================================  Only Tablets  ================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/* Menu */
+
+.section-navbar-master--business {
+
+    font-size: 1.125em;
+
+
+}
+}
+
+
+/*================================  Small Devices, Tablets  ================================*/
+@media only screen and (min-width: 768px) {}
+
+/*================================  Medium Devices, Desktops  ================================*/
+@media only screen and (min-width: 992px) {
+
+        /* Section SubCTA Business */
+    .block-content-subcta {
+        padding: 0.5em 1.5em 0.5em 8.5em;
+    }
+}
+
+/*================================  Large Devices, Wide Screens  ================================*/
+@media only screen and (min-width: 1200px) {
+
+        /* Section SubCTA Business */
+    .block-content-subcta {
+        padding: 0.5em 0em 0.5em 6.5em;
+    }
+}

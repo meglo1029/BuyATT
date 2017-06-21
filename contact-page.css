@@ -1,0 +1,156 @@
+/*
+Author: Andres Bautista || Contact us
+ */
+
+
+
+
+
+/*=================================  Custom Styles  ================================*/
+
+
+
+/* Hero */
+
+.section-hero-contact {
+    background-color: #e9e9ef;
+    padding: 2em 0;
+}
+
+.block-hero-title {
+    font-size: 3em;
+    font-family: 'OmnesATTLight';
+}
+
+.block-content-service {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+.block-content-ico {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.25em 0 0 0;
+    width: 60px;
+    text-align: right;
+}
+
+.block-service {
+    padding-top: 2em;
+    margin-left: 1em;
+}
+
+.title-services {
+    font-family: 'OmnesATTMedium';
+}
+
+.items-services {
+    line-height: 1em;
+    padding-top: 0.5em;
+}
+
+.phone-services {
+    font-family: 'OmnesATTMedium';
+    padding-top: 0.5em;
+}
+
+.block-button-services {
+    padding-top: 0.5em;
+}
+
+.hero-phone-order {
+    font-size: 1.25em;
+    font-family: 'OmnesATTMedium';
+    font-weight: 900;
+}
+
+
+/* CTA */
+
+.section-cta-contact {
+    background-color: #009fdb;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 0.5em 0;
+    line-height: 1em;
+    font-family: 'OmnesATTLight';
+}
+
+.section-cta-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.section-footer-master {
+    background-color: white;
+    font-size: 0.75em;
+    font-family: 'OmnesATTLight';
+    line-height: 1em;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.block-logo-footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.logo-footer {
+    width: 40%;
+}
+
+
+/*================================  Small Devices, Tablets  ================================*/
+
+@media only screen and (min-width: 768px) {
+
+    /* Hero */
+    .block-service {
+        margin-left: 0;
+        padding-left: 4em;
+    }
+    .block-content-ico {
+        width: 15px;
+    }
+    .block-content-movers-ico {
+        margin-left: -1.25em;
+        width: 36px;
+    }
+    /* Footer */
+    .logo-footer {
+        width: 80%;
+    }
+    .section-footer-master {
+        text-align: right;
+    }
+}
+
+
+/*================================  Medium Devices, Desktops  ================================*/
+
+@media only screen and (min-width: 992px) {
+    /* Hero */
+    .section-hero-contact {
+        background-image: url(../../assets/img/hero-contact.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 60%;
+        height: 28em;
+    }
+}
+
+
+/*================================  Large Devices, Wide Screens  ================================*/
+
+@media only screen and (min-width: 1200px) {
+    /* Hero */
+    .section-hero-contact {
+        height: 28em;
+        background-size: auto;
+        background-position: 85% bottom;
+    }
+}
